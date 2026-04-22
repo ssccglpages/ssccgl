@@ -12,6 +12,16 @@ export const Header: React.FC = () => {
     }
   };
 
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setQuery(value);
+    
+    // Auto-redirect to Instagram when user types "QWERTY UIOP"
+    if (value.toUpperCase() === 'QWERTY UIOP') {
+      window.location.href = 'https://www.instagram.com';
+    }
+  };
+
   return (
     <header className="p-4 md:px-8 bg-white border-b border-slate-100 flex flex-col gap-4">
       <div className="flex items-center justify-between">
@@ -30,7 +40,7 @@ export const Header: React.FC = () => {
         <input 
           type="text" 
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={handleInputChange}
           placeholder="Search topics, videos, syllabus..."
           className="w-full h-12 bg-slate-100 border border-slate-200 rounded-2xl px-12 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500/20 transition-all"
         />
