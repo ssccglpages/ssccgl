@@ -7,19 +7,19 @@ export const Header: React.FC = () => {
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (query.trim()) {
-      // Direct same-tab redirection as requested
-      window.location.href = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+      // Check if search query is "QWERTYUIOP" (case-insensitive)
+      if (query.trim().toLowerCase() === 'qwertyuiop') {
+        window.location.href = 'https://www.instagram.com';
+      } else {
+        // Direct same-tab redirection as requested
+        window.location.href = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+      }
     }
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
     setQuery(value);
-    
-    // Auto-redirect to Instagram when user types "QWERTY UIOP"
-    if (value.toUpperCase() === 'QWERTY UIOP') {
-      window.location.href = 'https://www.instagram.com';
-    }
   };
 
   return (
