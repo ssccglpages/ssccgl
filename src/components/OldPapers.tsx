@@ -13,8 +13,8 @@ const OLD_PAPERS = [
       { year: "2025", tier: "4th Feb (Shift 3), 5th Feb (Shift 1, 2)", url: "https://cdn-images.prepp.in/public/image/c5c20aafb6356966306824bf60bbaf33.pdf" },
       { year: "2024", tier: "20th Feb (Shift 1-4) - Practice Papers", url: "https://prepp.in/ssc-gd-exam/practice-papers" },
       { year: "2023", tier: "10th Jan (Shift 1-4) - All Shifts", url: "https://testbook.com/ssc-gd-constable/previous-year-papers" },
-      { year: "2021", tier: "17th Nov (Shift 3) - Historical Pattern", url: "https://cdn-images.prepp.in/public/image/f46f79e5b0723ceaa3cf98d3c19f3a92.pdf" },
-      { year: "2011", tier: "Solved Full Paper", url: "https://cdn-images.prepp.in/public/image/SSC_GD_2011_Paper_with_Solutions_82d7d7f8b96eb7c4847bd5cfc3e86093.pdf" }
+      { year: "2021", tier: "17th Nov (Shift 3) - Historical Pattern", url: "https://drive.google.com/file/d/1gKabJ_qmAs0DRlNRNhXbeM3pI5u_WAHz/view?usp=drive_link" },
+      { year: "2011", tier: "Solved Full Paper", url: "https://drive.google.com/file/d/18rGPr4NnXb-Kbe1eqiddFpYke6-eF6YQ/view?usp=drive_link" }
     ]
   },
   { 
@@ -61,8 +61,8 @@ const OLD_PAPERS = [
     color: "emerald",
     description: "Chapter-wise mastery with 6,500+ TCS MCQs",
     papers: [
-      { year: "Pinnacle", tier: "General Studies (6,500+ TCS MCQs)", url: "http://103.203.175.90:81/fdScript/RootOfEBooks/E%20Book%20collection%20-%202026%20-%20B/UPSC/Pinnacle%20General%20Studies.pdf" },
-      { year: "SSC 2024", tier: "GS Topic-wise Solved Papers", url: "http://103.203.175.90:81/fdScript/RootOfEBooks/E%20Book%20collection%20-%202026%20-%20F/LEADERSHIP/UPSC/1801_SSC_GENERAL_STUDIES_CHAPTERWISE_&_TOPICWISE_SOLVED_PAPERS_2024.pdf" },
+      { year: "Pinnacle", tier: "General Studies (6,500+ TCS MCQs)", url: "https://drive.google.com/file/d/1ZYTe7rnzRNS86H5Y238pUboDcQGdAMz5/view?usp=drive_link" },
+      { year: "SSC 2024", tier: "GS Topic-wise Solved Papers", url: "https://drive.google.com/file/d/1u2Y4w6vk4fWB-sTQWn3HH8DvjwD2omhm/view?usp=drive_link" },
       { year: "Lucent", tier: "General Science (English)", url: "http://103.203.175.90:81/fdScript/RootOfEBooks/E%20Book%20collection%20-%202025%20-%20C/ENGLISH/Lucent%E2%80%99s%20General%20Science%20Book%20%20in%20English.pdf" }
     ]
   },
