@@ -83,6 +83,8 @@ export const LectureView: React.FC<LectureViewProps> = ({ lecture, onBack, day }
       modestbranding: 1,
       rel: 0,
       controls: 1,
+      fs: 1, // Enable fullscreen
+      playsinline: 1, // Allow inline playback on mobile
     },
   };
 

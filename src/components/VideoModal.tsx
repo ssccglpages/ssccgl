@@ -70,7 +70,9 @@ export const VideoModal: React.FC<VideoModalProps> = ({ id, title, onClose }) =>
       autoplay: 1,
       modestbranding: 1,
       rel: 0,
-      controls: 1, // Standard controls still available
+      controls: 1,
+      fs: 1, // Enable fullscreen
+      playsinline: 1, // Allow inline playback on mobile
     },
   };
 
@@ -172,7 +174,7 @@ export const VideoModal: React.FC<VideoModalProps> = ({ id, title, onClose }) =>
             <div className="flex items-center justify-between gap-3">
               <Button 
                 className="flex-1 bg-red-600 hover:bg-red-700 text-white rounded-xl h-14 font-black uppercase text-xs tracking-widest flex items-center justify-center gap-3 shadow-lg"
-                onClick={() => window.location.href = youtubeUrl}
+                onClick={() => window.open(youtubeUrl, '_blank')}
               >
                 <Youtube className="w-6 h-6" />
                 Open in YouTube
